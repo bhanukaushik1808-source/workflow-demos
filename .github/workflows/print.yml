@@ -1,6 +1,8 @@
 name: Print Message
 on:
     push:
+        branches:
+            - master
 jobs:
     say-hello:
         runs-on: ubuntu-latest

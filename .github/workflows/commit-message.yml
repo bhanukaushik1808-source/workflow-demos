@@ -2,7 +2,6 @@ name: Show commit message
 on:
     push:
         branches:
-            - main
             - mastesr
 jobs:
     print-message:
